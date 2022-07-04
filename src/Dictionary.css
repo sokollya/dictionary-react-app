@@ -1,19 +1,30 @@
-.Searching {
+.Dictionary section {
   border: 1px solid #e5e5e5;
   border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 10%);
   background-color: #e5e5e5;
+  margin: 20px 0;
+  padding: 30px;
 }
-h2 {
+.Dictionary input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.hint {
+  font-size: 14px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 5px;
 }
-p {
-  text-align: center;
-  margin-bottom: 30px;
-}
+
 input {
   display: block;
   margin: 0 auto;
   width: 350px;
+}
+.Dictionary h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 15px;
 }
